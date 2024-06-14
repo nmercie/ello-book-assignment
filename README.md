@@ -1,46 +1,44 @@
-# Getting Started with Create React App
+Ello Book Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Overview
+Ello Book Assignment is a web application designed to assist teachers in sharing and managing books with students. It provides a user-friendly interface where teachers can search for books, add them to reading lists, and manage assignments efficiently.
 
-## Available Scripts
+This project is part of Ello's initiative to enhance children's reading experiences and promote a love for reading among young learners.
 
-In the project directory, you can run:
+Features
+Book Search: Search for books by title.
+-Reading List: Maintain a list of books added by the teacher.
+-Book Assignment: Assign books from the reading list to students.
+-Remove from Reading List: Remove books from the reading list as needed.
 
-### `npm start`
+Technologies Used
+-Frontend: React, Material-UI
+-Backend: Apollo Server, Express, GraphQL
+-Other: TypeScript
+
+Running the Application:
+-Clone the repository:
+  git clone <repository-url>
+  cd ello-book-assignment
+
+-Install dependencies:
+  cd src/frontend
+  npm install
+  
+  cd ../backend
+  npm install
+  
+-Start the GraphQL server:
+  
+  cd src/backend
+  npm start
+  
+-Start the React frontend:
+  
+  cd ../frontend
+  npm start
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
